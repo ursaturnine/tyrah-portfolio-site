@@ -1,5 +1,17 @@
-.homepage-title {
-    float: right;
+
+.home-flex {
+    /* display: grid; */
+    /* border: solid white; */
+}
+
+.home-flex > * {
+    display: grid;
+    /* border: solid salmon; */
+}   
+
+/* Home Large Pill Box */
+.home-flex-2 {
+    grid-column-start: 3;
     border: 1px solid white;
     border-radius: 57px; 
     padding: 15px;
@@ -9,33 +21,60 @@
     box-shadow: 10px 5px 5px rgb(36, 190, 190);
     font-family: 'Splash', cursive;
     font-size: small;
-    flex: 1
 }
 
-.home-flex {
-    display: grid;
-    /* border: solid white; */
-    grid-template-rows: max-content;
+/* Tyrah D. Gullette */
+.home-flex-3 {
+    grid-column-start: 1;
+    /* border-bottom: solid .1rem lavenderblush; */
+    mix-blend-mode: difference;
+    justify-self: right;
+
 }
 
-.header {
-    mix-blend-mode: difference; 
-    border-bottom: solid .1rem lavenderblush;
-    box-shadow: 0px 5px 1px gray; 
+/* About Me One Liner Container */
+.home-flex-4 {
+    grid-column-start: 1;
+    justify-self: center;
 }
-/* 
-.home-flex > * {
-    border: solid salmon;
-}  */
+/* About Me Summary Container */
+.home-flex-5 {
+    grid-column-start: 1;
+    justify-self: center;
+}
 
-section > * {
+
+/* Tyrah D. Gullette text */
+.home-text-1 {
+    margin-left: 8px;
+}
+
+/* About Me One Liner Text*/
+.home-text-2 {
+    width: 60%;
+    margin-left: 8px;
+}
+
+/* About Me Summary Text*/
+.home-text-3 {
+    width: 40%;
+    margin-left: 16px;
+}
+
+
+/* Home Flex Text Elements */
+/* div * p {
+    border: solid pink;
+} */
+
+/* section > * {
     border: solid yellow;
     place-self: center;
-}
+} */
 
-section { 
+/* section { 
     display: grid;
     margin-top: 5px;
     border: solid red;
     width: 100%;
-}
+} */

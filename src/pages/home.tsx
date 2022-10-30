@@ -9,30 +9,38 @@ interface HomeProps {
 const Home: FC<HomeProps> = ({title}) => {
     return(
         <div className='home-flex'>
-            <div className='home-page'>
-                    <div className='homepage-title'>
-                        <h1>{title}</h1>
-                    </div>  
-                    <div>
-                        <NavBar/>
-                    </div>
-            </div>
-            <div className='header'>
-                <h1>Tyrah D. Gullette</h1>
-            </div>
-            <section>
+            <div className='home-flex-1'> 
                 <div>
-                    <p> hi there</p>
+                    <NavBar/>
+                </div>
+                <div className='home-flex-2'>
+                    <h1>{title}</h1>
+                </div> 
+                <div className='home-flex-3'>
+                    <p className='home-text-1'>Tyrah D. Gullette</p>
+                </div>
+                <div className='home-flex-4'>
+                    <p className='home-text-2'>Hello, I’m Tyrah, a software engineer. I build performant and scalable software using forward-thinking methods.</p>
+                </div>
+                <div className='home-flex-5'>
+                    <p className='home-text-3'>Adventurous Tech developer &
+Inquisitive Code Weaver
+Raised in the Y2K era of tech optimism.</p>
+                </div>
+            </div>
+            <section className='section-1'>
+                <div>
+                    <p className='home-text-4'> hi there</p>
                 </div>
             </section>
-            <section>
+            <section className='section-2'>
                 <div>
-                    <p> hi there 2 </p>
+                    <p className='home-text-5'> hi there 2 </p>
                 </div>
             </section>
-            <section>
+            <section className='section-3'>
                 <div>
-                    <p> hi there 3 </p>
+                    <p className='home-text-6'> hi there 3 </p>
                 </div>
             </section>
         </div>
