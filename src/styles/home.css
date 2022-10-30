@@ -90,22 +90,102 @@
     background: radial-gradient(farthest-corner at 40px 40px, rgb(107, 14, 109) 0%, #43e 100%);
 }
 
-/* Project 2 */
+/* title */
+.home-text-4 {
+    grid-column-start: 1 ;
+    margin-left: 8px;
+    justify-self: start;
+}
+/* Description */
+.project-1-text-1 {
+    margin-left: 8px;
+    grid-column-start: 1 ;
+    justify-self: start;
+    width: 80%;
+}
+/* Image */
+.project-1-text-2 {
+    grid-column-start: 2 ;
+    grid-row-start: 1;
+    justify-self: start;
+    width: 80%;
+}
+/* Link */
+.project-1-text-3 {
+    grid-column-start: 2;
+    justify-self: start;
+    width: 50%;
 
+}
+/* -----------------------------------------PROJECT TWO-----------------------------------------------------------*/
+/* Project 2 */
 .section-2 {
     background: radial-gradient(farthest-corner at 40px 40px, rgb(107, 14, 109) 0%, #43e 100%);  
 }
+/* title */
+.home-text-5 {
+    grid-column-start: 1 ;
+    margin-left: 8px;
+    justify-self: start;
+}
+/* Description */
+.project-2-text-1 {
+    margin-left: 8px;
+    grid-column-start: 1 ;
+    justify-self: start;
+    width: 80%;
+}
+/* Image */
+.project-2-text-2 {
+    grid-column-start: 2 ;
+    grid-row-start: 1;
+    justify-self: start;
+    width: 80%;
+}
+/* Link */
+.project-2-text-3 {
+    grid-column-start: 2;
+    justify-self: start;
+    width: 50%;
 
+}
+
+
+/* -----------------------------------------PROJECT THREE-----------------------------------------------------------*/
 /* Project 3 */
-
 .section-3 {
     background: radial-gradient(farthest-corner at 40px 40px, rgb(107, 14, 109) 0%, #43e 100%);
 }
 
+/* title */
+.home-text-6 {
+    grid-column-start: 1 ;
+    margin-left: 8px;
+    justify-self: start;
+}
+/* Description */
+.project-3-text-1 {
+    margin-left: 8px;
+    grid-column-start: 1 ;
+    justify-self: start;
+    width: 80%;
+}
+/* Image */
+.project-3-text-2 {
+    grid-column-start: 2 ;
+    grid-row-start: 1;
+    justify-self: start;
+    width: 80%;
+}
+/* Link */
+.project-3-text-1 {
+    grid-column-start: 2;
+    justify-self: start;
+    width: 50%;
+}
 
 
-
-section > * {
+section  > * {
     display: grid;
     height: 30vw;
     /* border: solid pink; */

@@ -42,17 +42,17 @@ Raised in the Y2K era of tech optimism.</p>
             <section className='section-2'>
                 <div>
                     <p className='home-text-5'> Viewing Party </p>
-                    <p>Description</p>
-                    <p>Image</p>
-                    <p>Link</p>
+                    <p className='project-2-text-1'>Description</p>
+                    <p className='project-2-text-2'>Image</p>
+                    <p className='project-2-text-3'>Link</p>
                 </div>
             </section>
             <section className='section-3'>
                 <div>
                     <p className='home-text-6'> Inspiration Board </p>
-                    <p>Description</p>
-                    <p>Image</p>
-                    <p>Link</p>
+                    <p className='project-3-text-1'>Description</p>
+                    <p className='project-3-text-2'>Image</p>
+                    <p className='project-3-text-3'>Link</p>
                 </div>
             </section>
         </div>
