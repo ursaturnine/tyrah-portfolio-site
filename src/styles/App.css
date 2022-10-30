@@ -3,12 +3,11 @@
 }
 
 .App {
-  /* display: flex; */
   display: grid;
   flex-direction: column-reverse;
-  /* flex-wrap: wrap; */
   text-align: center;
-  background-color: #0a0a0a;
+  background: radial-gradient(farthest-corner at 40px 40px, #0a0a0a 50%,rgb(170, 56, 170) 100% );
+  /* background: radial-gradient(farthest-corner at 40px 40px, rgb(107, 14, 109) 0%, #43e 100%); */
   color: white;
   text-transform: uppercase;
   font-size: large;

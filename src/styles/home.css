@@ -21,24 +21,44 @@
     box-shadow: 10px 5px 5px rgb(36, 190, 190);
     font-family: 'Splash', cursive;
     font-size: small;
+    background-color: #0a0a0a;
 }
 
-/* Tyrah D. Gullette */
+.home-flex  * div {
+    /* border: solid purple; */
+}
+
+/* Tyrah D. Gullette Container */
 .home-flex-3 {
     grid-column-start: 1;
-    /* border-bottom: solid .1rem lavenderblush; */
+    /* border: solid pink; */
+    border-bottom: dotted .13rem lavenderblush;
     mix-blend-mode: difference;
-    justify-self: right;
+    justify-self: end;
 
+}
+
+/* Hello Container */
+.home-flex-3add {
+    mix-blend-mode: difference;
+    grid-column-start: 1;
+    justify-self: start;
+    margin-left: 8px;
+}
+/* Hello Text */
+.home-text-1add {
+    font-size: xx-large;
 }
 
 /* About Me One Liner Container */
 .home-flex-4 {
+    mix-blend-mode: difference;
     grid-column-start: 1;
     justify-self: center;
 }
 /* About Me Summary Container */
 .home-flex-5 {
+    mix-blend-mode: difference;
     grid-column-start: 1;
     justify-self: center;
 }
@@ -47,6 +67,9 @@
 /* Tyrah D. Gullette text */
 .home-text-1 {
     margin-left: 8px;
+    font-size: xx-large;
+    width: 50%;
+    float: right;
 }
 
 /* About Me One Liner Text*/
@@ -60,21 +83,34 @@
     width: 40%;
     margin-left: 16px;
 }
+/*=========================== PROJECTS SECTION===============================================================*/
+/* Project 1 */
+.section-1 {
+    /* background: radial-gradient(farthest-corner at 40px 40px, #f35 0%, #43e 100%); */
+    background: radial-gradient(farthest-corner at 40px 40px, rgb(107, 14, 109) 0%, #43e 100%);
+}
+
+/* Project 2 */
+
+.section-2 {
+    background: radial-gradient(farthest-corner at 40px 40px, rgb(107, 14, 109) 0%, #43e 100%);  
+}
+
+/* Project 3 */
+
+.section-3 {
+    background: radial-gradient(farthest-corner at 40px 40px, rgb(107, 14, 109) 0%, #43e 100%);
+}
 
 
-/* Home Flex Text Elements */
-/* div * p {
-    border: solid pink;
-} */
 
-/* section > * {
-    border: solid yellow;
-    place-self: center;
-} */
 
-/* section { 
+section > * {
     display: grid;
-    margin-top: 5px;
-    border: solid red;
-    width: 100%;
-} */
+    height: 30vw;
+    /* border: solid pink; */
+} 
+
+section { 
+    /* border: solid red; */
+} 
