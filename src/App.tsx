@@ -2,7 +2,10 @@ import '../src/styles/App.css';
 import {Outlet} from 'react-router-dom';
 import React, {FC, useState, useEffect} from 'react';
 import {motion} from 'framer-motion';
-import NavBar from './components/navbar';
+import HorizontalCard from './components/horizontalcard'
+import {about} from '../src/blurbs/smallabout';
+import PageSection from '../src/components/pagesection'
+
 
 interface AppProps {
   title?: string
@@ -10,6 +13,8 @@ interface AppProps {
 
 
 const App: FC<AppProps> = ({title}) => {  
+  let messageOne = about.messageOne;
+  let messageTwo = about.messageTwo;
 
   const [mousePosition, setMousePosition] = useState({
     x: 0,
@@ -45,14 +50,14 @@ const App: FC<AppProps> = ({title}) => {
       backgroundColor: '#0a0a0a',
     }
   }
+{/* <div className='header'>
+            <h1 onMouseEnter={textEnter} onMouseLeave={textExit}>{title}</h1>
+        </div> */}
 
   const textEnter = () => setCursorVariant('text');
   const textExit = () => setCursorVariant('default');
   return (
     <div className="App">
-      <div className='header'>
-        <h1 onMouseEnter={textEnter} onMouseLeave={textExit}>{title}</h1>
-      </div>
       <motion.div 
         className='cursor'
         variants={variants}

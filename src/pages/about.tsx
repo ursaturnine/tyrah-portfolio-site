@@ -2,8 +2,6 @@ import React, {FC} from 'react';
 import NavBar from '../components/navbar';
 import '../styles/About.css';
 
-//add inteface for props here
-
 interface AboutProps {
     title?: string
 }

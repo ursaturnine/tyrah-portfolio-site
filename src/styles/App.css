@@ -3,8 +3,10 @@
 }
 
 .App {
-  display: flex;
+  /* display: flex; */
+  display: grid;
   flex-direction: column-reverse;
+  /* flex-wrap: wrap; */
   text-align: center;
   background-color: #0a0a0a;
   color: white;
@@ -12,14 +14,16 @@
   font-size: large;
   font-family: 'Iceland', cursive;
   text-shadow: 1px 1px 7px pink;
+  /* border: solid orange; */
 }
 
-.header {
-  height: 20vw;
-  mix-blend-mode: difference;
-  border-bottom: solid .1rem lavenderblush;
-  box-shadow: 0px 5px 1px gray;
+.App > * {
+  /* border: solid blue; */
 }
+
+
+
+
 
 .cursor {
   background-color:rgb(225, 211, 239);

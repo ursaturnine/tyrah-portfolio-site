@@ -1,0 +1,18 @@
+.horizontal-card {
+    /* display: flex; */
+    /* flex-direction: column-reverse; */
+    text-align: center;
+    background-color: #3d4040;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: 'Iceland', cursive;
+    text-shadow: 1px 1px 7px pink;
+    border: 1px solid white;
+    border-radius: 30px; 
+    box-shadow: 10px 5px 5px #ea9eea;
+    width: 20vw;
+    margin-left: 480px;
+    mix-blend-mode: difference;
+    /* margin: 10px; */
+}

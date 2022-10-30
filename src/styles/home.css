@@ -11,3 +11,31 @@
     font-size: small;
     flex: 1
 }
+
+.home-flex {
+    display: grid;
+    /* border: solid white; */
+    grid-template-rows: max-content;
+}
+
+.header {
+    mix-blend-mode: difference; 
+    border-bottom: solid .1rem lavenderblush;
+    box-shadow: 0px 5px 1px gray; 
+}
+/* 
+.home-flex > * {
+    border: solid salmon;
+}  */
+
+section > * {
+    border: solid yellow;
+    place-self: center;
+}
+
+section { 
+    display: grid;
+    margin-top: 5px;
+    border: solid red;
+    width: 100%;
+}

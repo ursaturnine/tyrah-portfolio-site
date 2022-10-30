@@ -26,7 +26,7 @@ import NotFound from '../src/pages/notfound';
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<App title='Tyrah D. Gullette'/>}>
-            <Route index element={<Home title='Home'/>}/>
+            <Route index element ={<Home title='home' />} />
             <Route path='about' element ={<About title='About Tyrah'/>}/>
             <Route path='projects' element={<Projects title='My Projects'/>} />
             <Route path='contact' element={<Contact title='Contact Tyrah' /> }/>
