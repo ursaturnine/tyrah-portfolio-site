@@ -1,12 +1,15 @@
 import '../src/styles/App.css';
 import {Outlet} from 'react-router-dom';
-import React, {useState, useEffect} from 'react';
+import React, {FC, useState, useEffect} from 'react';
 import {motion} from 'framer-motion';
 import NavBar from './components/navbar';
 
+interface AppProps {
+  title?: string
+}
 
 
-function App() {  
+const App: FC<AppProps> = ({title}) => {  
 
   const [mousePosition, setMousePosition] = useState({
     x: 0,
@@ -48,7 +51,7 @@ function App() {
   return (
     <div className="App">
       <div className='header'>
-        <h1 onMouseEnter={textEnter} onMouseLeave={textExit}>Tyrah D. Gullette</h1>
+        <h1 onMouseEnter={textEnter} onMouseLeave={textExit}>{title}</h1>
       </div>
       <motion.div 
         className='cursor'

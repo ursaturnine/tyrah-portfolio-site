@@ -1,14 +1,17 @@
 import React, {FC} from 'react';
 import NavBar from '../components/navbar';
 
-const NotFound = () => {
+interface NotFoundProps {
+    message?: string
+}
+const NotFound: FC<NotFoundProps> = ({message}) => {
     return(
         <div className='not-found'>
             <div className='notfound-title'>
             <NavBar />
             </div>
             <div>
-                <h1>Hmm...This Page Doesn't Exist</h1>
+                <h1>{message}</h1>
             </div>
         </div>
     )

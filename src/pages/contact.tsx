@@ -2,11 +2,14 @@ import React, {FC} from 'react';
 import NavBar from '../components/navbar';
 import '../styles/contact.css'
 
-const Contact: FC = () => {
+interface ContactProps {
+    title?: string
+}
+const Contact: FC<ContactProps> = ({title}) => {
     return(
         <div className='contact'>
             <div className='contact-title'>
-                <h1>Contact Tyrah</h1>
+                <h1>{title}</h1>
             </div>
             <div>
                 <NavBar/>

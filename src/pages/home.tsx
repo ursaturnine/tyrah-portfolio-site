@@ -2,11 +2,14 @@ import React, {FC} from 'react';
 import NavBar from '../components/navbar';
 import '../styles/home.css';
 
-const Home: FC = () => {
+interface HomeProps {
+    title?: string
+}
+const Home: FC<HomeProps> = ({title}) => {
     return(
         <div className='home-page'>
             <div className='homepage-title'>
-                <h1>Home Page</h1>
+                <h1>{title}</h1>
             </div>
             <div>
                 <NavBar/>

@@ -4,11 +4,15 @@ import '../styles/About.css';
 
 //add inteface for props here
 
-const About: FC = () => {
+interface AboutProps {
+    title?: string
+}
+
+const About: FC<AboutProps> = ({title}) => {
     return (
         <div className='About'>
             <div className='right-container'>
-                <h1>About Tyrah</h1>
+                <h1>{title}</h1>
             </div>
             <div>
                 <NavBar/>

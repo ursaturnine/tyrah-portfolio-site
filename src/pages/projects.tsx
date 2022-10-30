@@ -2,11 +2,14 @@ import React, {FC} from 'react';
 import NavBar from '../components/navbar';
 import '../styles/projects.css';
 
-const Projects: FC = () => {
+interface ProjectsProps {
+    title?: string
+}
+const Projects: FC<ProjectsProps> = ( {title}) => {
     return(
         <div className='projects'>
             <div className='projects-title'>
-                <h1>My Projects</h1>
+                <h1>{title}</h1>
             </div>
             <div>
             <NavBar/>

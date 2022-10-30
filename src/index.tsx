@@ -25,12 +25,12 @@ import NotFound from '../src/pages/notfound';
     <React.StrictMode>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<App />}>
-            <Route index element={<Home />}/>
-            <Route path='about' element ={<About />}/>
-            <Route path='projects' element={<Projects />} />
-            <Route path='contact' element={<Contact /> }/>
-            <Route path='*' element={<NotFound />}/>
+          <Route path='/' element={<App title='Tyrah D. Gullette'/>}>
+            <Route index element={<Home title='Home'/>}/>
+            <Route path='about' element ={<About title='About Tyrah'/>}/>
+            <Route path='projects' element={<Projects title='My Projects'/>} />
+            <Route path='contact' element={<Contact title='Contact Tyrah' /> }/>
+            <Route path='*' element={<NotFound message='Hmm...it looks like this page does not exist' />}/>
           </Route>
         </Routes>
       </BrowserRouter>
