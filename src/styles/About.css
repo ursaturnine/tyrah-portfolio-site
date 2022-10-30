@@ -1,0 +1,19 @@
+.About {
+    align-items: center;
+}
+
+.right-container {
+    float: right;
+    border: 1px solid white;
+    border-radius: 57px; 
+    padding: 15px;
+    margin: 16px;
+    margin-right: 80px;
+    text-transform: uppercase;
+    box-shadow: 10px 5px 5px olive;
+    font-family: sans-serif;
+}
+
+.left-container {
+    float: left;
+}
