@@ -3,6 +3,8 @@
 }
 
 .App {
+  display: flex;
+  flex-direction: column-reverse;
   text-align: center;
   background-color: #0a0a0a;
   color: white;
@@ -10,6 +12,13 @@
   font-size: large;
   font-family: 'Iceland', cursive;
   text-shadow: 1px 1px 7px pink;
+}
+
+.header {
+  height: 20vw;
+  mix-blend-mode: difference;
+  border-bottom: solid .1rem lavenderblush;
+  box-shadow: 0px 5px 1px gray;
 }
 
 .cursor {

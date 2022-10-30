@@ -10,7 +10,7 @@ const About: FC = () => {
             <div className='right-container'>
                 <h1>About Tyrah</h1>
             </div>
-            <div className='left-container'>
+            <div>
                 <NavBar/>
             </div>
         </div>

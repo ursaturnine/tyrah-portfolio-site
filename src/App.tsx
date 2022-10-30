@@ -2,6 +2,7 @@ import '../src/styles/App.css';
 import {Outlet} from 'react-router-dom';
 import React, {useState, useEffect} from 'react';
 import {motion} from 'framer-motion';
+import NavBar from './components/navbar';
 
 
 
