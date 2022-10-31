@@ -10,7 +10,7 @@ interface AboutProps {
 
 const About: FC<AboutProps> = ({title}) => {
     return (
-        <div className='About'>
+        <div className='about'>
             <div className='about-flex'>
                 <div>
                     <NavBar/>
@@ -18,6 +18,16 @@ const About: FC<AboutProps> = ({title}) => {
                 <div className='inner-about-1'>
                     <h1>{title}</h1>
                 </div>
+                <div className='about-pic-2'>
+                    <img  src={require('../images/laptop-about.png')} alt='laptop' width={250} height={250}/>
+                </div>
+                <div className='about-pic-3'>
+                    <img src={require('../images/cup-about.png')} alt='tea cup' width={250} height={250}/>
+                </div>
+                <div className='about-pic-4'>
+                    <img src={require('../images/headphone-about.png')} alt='typing' width={250} height={250}/>
+                </div>
+
             </div>
             <div className='about-sections'>
                 <section className='about-section-1'>
