@@ -10,7 +10,75 @@
     margin: 16px;
     margin-right: 80px;
     text-transform: uppercase;
+    font-family: 'Splash', cursive;
+    font-size: small;
+}
+
+.about-flex {
+    /* border: solid orange; */
+    display: grid;
+}
+
+/* About Large Pill */
+.inner-about-1 {
+    grid-column-start: 3;
+    border: 1px solid white;
+    border-radius: 57px; 
+    padding: 15px;
+    margin: 16px;
+    margin-right: 80px;
+    text-transform: uppercase;
     box-shadow: 10px 5px 5px olive;
     font-family: 'Splash', cursive;
     font-size: small;
+    background-color: #0a0a0a;
+}
+
+
+section > p {
+    display: grid;
+    /* border: solid pink; */
+}
+/*===========================================SECTIONS===============================================================*/
+.about-sections {
+        /* border: solid yellow; */
+    display: grid;
+}
+
+/* Get To Know Me ; Image */
+.about-section-1 {
+    /* border: solid lime; */
+    border: solid .1rem lavender;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+/* Text */
+/* Get To know Me */
+.about-section-1-text-1 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    width: 50%;
+}
+/* Image */
+.about-section-1-text-2{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    width: 50%;
+}
+
+/* Tooling */
+.about-section-2 {
+    /* border: solid red; */
+    border: solid .1rem lavender;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+/* Quote */
+.about-section-3 {
+    /* border: solid hotpink; */
+    border: solid .1rem lavender;
+    border-radius: 8px;
+    margin: 10px;
 }

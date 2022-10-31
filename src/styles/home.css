@@ -83,11 +83,21 @@
     width: 40%;
     margin-left: 16px;
 }
+
+.sections {
+    display: grid;
+    /* border: solid yellow; */
+}
 /*=========================== PROJECTS SECTION===============================================================*/
 /* Project 1 */
 .section-1 {
     /* background: radial-gradient(farthest-corner at 40px 40px, #f35 0%, #43e 100%); */
     background: radial-gradient(farthest-corner at 40px 40px, rgb(107, 14, 109) 0%, #43e 100%);
+    box-shadow: 2px 2px 15px 3px rgb(50, 13, 60);
+    border-radius: 2%;
+    margin: 20px;
+    justify-self: center;
+    width: 90%;
 }
 
 /* title */
@@ -121,6 +131,11 @@
 /* Project 2 */
 .section-2 {
     background: radial-gradient(farthest-corner at 40px 40px, rgb(107, 14, 109) 0%, #43e 100%);  
+    box-shadow: 2px 2px 15px 3px rgb(50, 13, 60);
+    border-radius: 2%;
+    margin: 20px;
+    justify-self: center;
+    width: 90%;
 }
 /* title */
 .home-text-5 {
@@ -155,6 +170,11 @@
 /* Project 3 */
 .section-3 {
     background: radial-gradient(farthest-corner at 40px 40px, rgb(107, 14, 109) 0%, #43e 100%);
+    box-shadow: 2px 2px 15px 3px rgb(50, 13, 60);
+    border-radius: 2%;
+    margin: 20px;
+    justify-self: center;
+    width: 90%;
 }
 
 /* title */
@@ -188,6 +208,7 @@
 section  > * {
     display: grid;
     height: 30vw;
+
     /* border: solid pink; */
 } 
 
