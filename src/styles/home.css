@@ -24,6 +24,17 @@
     background-color: #0a0a0a;
 }
 
+/* Image Container */
+.home-flex-2add {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    justify-self: right;
+}
+/* Image */
+div > img {
+    border-radius: 250px;
+}
+
 .home-flex  * div {
     /* border: solid purple; */
 }
@@ -31,8 +42,6 @@
 /* Tyrah D. Gullette Container */
 .home-flex-3 {
     grid-column-start: 1;
-    /* border: solid pink; */
-    border-bottom: dotted .13rem lavenderblush;
     mix-blend-mode: difference;
     justify-self: end;
 
@@ -42,6 +51,7 @@
 .home-flex-3add {
     mix-blend-mode: difference;
     grid-column-start: 1;
+    grid-row-start: 3;
     justify-self: start;
     margin-left: 8px;
 }
@@ -54,14 +64,22 @@
 .home-flex-4 {
     mix-blend-mode: difference;
     grid-column-start: 1;
+    grid-row-start: 3;
+    margin-top: 55px;
+    font-size: x-large;
     justify-self: center;
+    width: 80%;
 }
 /* About Me Summary Container */
 .home-flex-5 {
+    font-size: x-large;
     mix-blend-mode: difference;
     grid-column-start: 1;
     justify-self: center;
+    grid-row-start: 3;
+    margin-top: 200px;
 }
+
 
 
 /* Tyrah D. Gullette text */

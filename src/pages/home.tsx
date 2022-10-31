@@ -19,6 +19,9 @@ const Home: FC<HomeProps> = ({title}) => {
                 <div className='home-flex-3'>
                     <p className='home-text-1'>Tyrah D. Gullette, Software Engineering Intern @ Salesforce</p>
                 </div>
+                <div className='home-flex-2add'>
+                    <img src={require('../images/home-logo-purple.png')} alt='tech logo' width={300} height={300}/>
+                </div>
                 <div className='home-flex-3add'>
                     <p className='home-text-1add'>Hello,</p>
                 </div>

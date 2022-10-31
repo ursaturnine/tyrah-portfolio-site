@@ -35,33 +35,27 @@
 }
 
 
-section > p {
+section > * {
     display: grid;
-    /* border: solid pink; */
 }
 /*===========================================SECTIONS===============================================================*/
 .about-sections {
-        /* border: solid yellow; */
     display: grid;
 }
 
 /* Get To Know Me ; Image */
 .about-section-1 {
-    /* border: solid lime; */
-    border: solid .1rem lavender;
-    border-radius: 8px;
-    margin: 10px;
+    background-image: url('../images/rainbow.jpg');
+    /* background-color: transparent; */
+    mix-blend-mode:exclusion;
+    height: 50vw;
+    width: 100%;
+    opacity: .3;
 }
 
 /* Text */
 /* Get To know Me */
 .about-section-1-text-1 {
-    grid-column-start: 2;
-    grid-row-start: 1;
-    width: 50%;
-}
-/* Image */
-.about-section-1-text-2{
     grid-column-start: 1;
     grid-row-start: 1;
     width: 50%;

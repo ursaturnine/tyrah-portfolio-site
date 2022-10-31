@@ -2,6 +2,8 @@ import React, {FC} from 'react';
 import NavBar from '../components/navbar';
 import '../styles/About.css';
 
+
+
 interface AboutProps {
     title?: string
 }
@@ -19,14 +21,19 @@ const About: FC<AboutProps> = ({title}) => {
             </div>
             <div className='about-sections'>
                 <section className='about-section-1'>
-                    <p className='about-section-1-text-1'>Get To Know Me</p>
-                    <p className='about-section-1-text-2'>Image</p>
+                    <div>
+                        <p className='about-section-1-text-1'>Get To Know Me/What I Offer As A Developer</p>
+                    </div>
                 </section>
                 <section className='about-section-2'>
-                    <p>Tooling</p>
+                    <div>
+                        <p>Tooling</p>
+                    </div>
                 </section>
                 <section className='about-section-3'>
-                    <p>Quote</p>
+                    <div>
+                        <p>Quote</p>
+                    </div>
                 </section>
             </div>
         </div>
