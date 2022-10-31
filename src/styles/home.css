@@ -23,6 +23,14 @@
     font-size: small;
     background-color: #0a0a0a;
 }
+/* Planet Image*/
+.home-flex-4add {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    justify-self: left;
+    border-radius: 400px;
+    box-shadow: 2px 2px 15px 3px rgb(50, 13, 60);
+}
 
 /* Image Container */
 .home-flex-2add {
@@ -42,8 +50,9 @@ div > img {
 /* Tyrah D. Gullette Container */
 .home-flex-3 {
     grid-column-start: 1;
+    grid-row-start: 2;
     mix-blend-mode: difference;
-    justify-self: end;
+    justify-self: right;
 
 }
 

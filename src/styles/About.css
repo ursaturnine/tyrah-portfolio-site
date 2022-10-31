@@ -45,7 +45,7 @@ section > * {
 
 /* Get To Know Me ; Image */
 .about-section-1 {
-    background-image: url('../images/rainbow.jpg');
+    /* background-image: url('../images/rainbow.jpg'); */
     /* background-color: transparent; */
     mix-blend-mode:exclusion;
     height: 50vw;
