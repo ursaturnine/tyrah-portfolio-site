@@ -50,15 +50,29 @@ section > * {
     mix-blend-mode:exclusion;
     height: 50vw;
     width: 100%;
-    opacity: .3;
+
 }
 
 /* Text */
-/* Get To know Me */
+/* Me As a Developer */
 .about-section-1-text-1 {
     grid-column-start: 1;
     grid-row-start: 1;
-    width: 50%;
+    width: 40%;
+}
+/* Second Paragraph Salesforce*/
+.about-section-1-text-2 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    width: 40%;
+}
+
+/* Personal info */
+.about-section-1-text-3 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    width: 40%;
+
 }
 
 /* Tooling */

@@ -116,10 +116,27 @@ div > img {
     display: grid;
     /* border: solid yellow; */
 }
+
+/*==================================================INTRO TO MY WORK=========================================*/
+.section-5 {
+    background: radial-gradient(farthest-corner at 40px 40px, #f35 0%, #43e 100%);
+    box-shadow: 2px 2px 15px 3px rgb(50, 13, 60);
+    border-radius: 2%;
+    margin: 20px;
+    justify-self: center;
+    width: 90%;
+    height: 10vw;
+}
+.section-5-text {
+    justify-self: center;
+    margin-left: 15px;
+    margin-top: 70px;
+    font-size: medium;
+    font-family: 'Electrolize', sans-serif;
+}
 /*=========================== PROJECTS SECTION===============================================================*/
 /* Project 1 */
 .section-1 {
-    /* background: radial-gradient(farthest-corner at 40px 40px, #f35 0%, #43e 100%); */
     background: radial-gradient(farthest-corner at 40px 40px, rgb(107, 14, 109) 0%, #43e 100%);
     box-shadow: 2px 2px 15px 3px rgb(50, 13, 60);
     border-radius: 2%;
@@ -132,7 +149,7 @@ div > img {
 .home-text-4 {
     grid-column-start: 1 ;
     grid-row-start: 1;
-    margin-left: 8px;
+    margin-left: 15px;
     justify-self: start;
 
 }
@@ -178,7 +195,7 @@ div > img {
     grid-row-start: 5;
     justify-self: start;
     margin-left: 100px;
-    font-size: small;
+    font-size: medium;
     width: 40%;
 
 }
@@ -188,7 +205,7 @@ div > img {
     grid-row-start: 4;
     justify-self: start;
     margin-left: 100px;
-    font-size: small;
+    font-size: medium;
     width: 40%;
 
 }
@@ -198,7 +215,7 @@ div > img {
     grid-row-start: 3;
     justify-self: start;
     margin-left: 8px;
-    font-size: small;
+    font-size: medium;
 
 }
 /* Technologies */
@@ -207,7 +224,7 @@ div > img {
     grid-row-start: 6;
     justify-self: start;
     margin-left: 8px;
-    font-size: small;
+    font-size: medium;
 
 }
 /* Technologies list*/
@@ -216,7 +233,7 @@ div > img {
     grid-row-start: 6;
     justify-self: start;
     margin-left: 100px;
-    font-size: small;
+    font-size: medium;
     margin-top: 40px;
     
 
@@ -226,7 +243,7 @@ div > img {
     grid-column-start: 1;
     grid-row-start: 3;
     justify-self: start;
-    font-size: small;
+    font-size: medium;
     margin-top: 40px;
     width: 40%;
     margin-left: 100px;
@@ -285,7 +302,7 @@ div > img {
     grid-row-start: 4;
     justify-self: start;
     width: 50%;
-    font-size: small;
+    font-size: medium;
 }
 
 /* Technologies*/
@@ -397,14 +414,14 @@ div > img {
     grid-column-start: 2 ;
     grid-row-start: 2;
     justify-self: end;
-    width: 60%;
-    margin-right: 80px;
+    width: 40%;
+    margin-right: 100px;
 }
 /* Image */
 .project-4-text-2 {
     grid-column-start: 1 ;
     grid-row-start: 2;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 /* Technologies */
 .project-4-text-1 {

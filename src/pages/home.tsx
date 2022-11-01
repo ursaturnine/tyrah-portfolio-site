@@ -38,6 +38,11 @@ Raised in the Y2K era of tech optimism.</p>
                 </div>
             </div>
             <div className='sections'>
+                <section className='section-5'>
+                    <div>
+                        <p className='section-5-text'>While this portfolio website is a work in progress, here are some finished projects I really dug into to develop my skills in backend, frontend and fullstack engineering. </p>
+                    </div>
+                </section>
                 <section className='section-1'>
                     <div>
                         <p className='home-text-4'> Tell Me where</p>
