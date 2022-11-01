@@ -81,18 +81,23 @@ Raised in the Y2K era of tech optimism.</p>
                 <section className='section-3'>
                     <div>
                         <p className='home-text-6'> Inspiration Board </p>
-                        <p className='project-3-text-1'>Description</p>
-                        <p className='project-3-text-2'>Image</p>
+                        <p className='project-3-text-1'>A web app to create and organize inspiration boards and cards! Inspiration Board Features include, creating a board
+                        via form submission, adding cards to a board via form submission, like a board or card and delete a board or card.</p>
+                        <p className='project-3-text-7'>Technologies: React, Flask, Python, Framr Motion, SQLAlchemy, Heroku</p>
+                        <img className='project-3-text-2' src={require('../images/inspo-board.png')} alt='inspo board' height={300} width={300}/>
+                        <i className='project-3-text-6'>A Screen Grab of the Boards Page on the Website For Inspiration Board Project</i>
                         <a className='project-3-text-3' target='_blank' href='https://orange-purple.herokuapp.com/' rel='noreferrer'>orange-purple.herokuapp.com</a>
-                        <a className='project-3-text-3' target='_blank' href='https://github.com/ursaturnine/inspo-board-front' rel='noreferrer'>View Frontend Code in Github</a>
-                        <a className='project-3-text-3' target='_blank' href='https://github.com/cathos/back-end-inspiration-board' rel='noreferrer'>View Backend Code in Github</a>
+                        <a className='project-3-text-4' target='_blank' href='https://github.com/ursaturnine/inspo-board-front' rel='noreferrer'>View Frontend Code in Github</a>
+                        <a className='project-3-text-5' target='_blank' href='https://github.com/cathos/back-end-inspiration-board' rel='noreferrer'>View Backend Code in Github</a>
                     </div>
                 </section>
                 <section className='section-4'>
                     <div>
                         <p className='home-text-7'> Weather Report </p>
-                        <p className='project-4-text-1'>Description</p>
-                        <p className='project-4-text-2'>Image</p>
+                        <p className='project-4-text-4'>A mini project to demonstrate how I wire up an app using vanilla JavaScript, HTML and CSS and use multiple API calls.. Weather Report 
+                        features include a display of the temperature by city, search a city to get a temperature, pick a theme to change the sky display and color change of the temperature display based on degree range.</p>
+                        <p className='project-4-text-1'>Technologies: JavaScript, CSS, HTML, LocationIQ, OpenWeather</p>
+                        <img className='project-4-text-2' src={require('../images/weather-report.png')} alt='weather' height={300} width={300}/>
                         <a className='project-4-text-3' target='_blank' href='https://github.com/ursaturnine/weather-report' rel='noreferrer'>View in Github</a>
                     </div>
                 </section>
