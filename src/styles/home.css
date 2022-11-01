@@ -30,6 +30,7 @@
     justify-self: left;
     border-radius: 400px;
     box-shadow: 2px 2px 15px 3px rgb(50, 13, 60);
+    margin-left: 50px;
 }
 
 /* Image Container */
@@ -38,7 +39,7 @@
     grid-row-start: 3;
     justify-self: right;
 }
-/* Image */
+/* All Image */
 div > img {
     border-radius: 250px;
 }
@@ -130,28 +131,106 @@ div > img {
 /* title */
 .home-text-4 {
     grid-column-start: 1 ;
+    grid-row-start: 1;
     margin-left: 8px;
     justify-self: start;
+
 }
 /* Description */
 .project-1-text-1 {
-    margin-left: 8px;
+    margin-left: 100px;
     grid-column-start: 1 ;
     justify-self: start;
-    width: 80%;
+    width: 40%;
 }
 /* Image */
 .project-1-text-2 {
     grid-column-start: 2 ;
-    grid-row-start: 1;
-    justify-self: start;
-    width: 80%;
+    grid-row-start: 2;
+    border-radius: 50px;
+    margin-right: 40px;
 }
-/* Link */
+/* Image Description Text*/
+.project-1-text-11 {
+    margin-right: 100px;
+}
+/* Link Frontend */
 .project-1-text-3 {
-    grid-column-start: 2;
-    justify-self: start;
+    grid-column-start: 1;
+    grid-row-start: 4;
+    justify-self: center;
+    margin-left: 350px;
     width: 50%;
+
+}
+/* Link Backend */
+.project-1-text-10 {
+    grid-column-start: 1;
+    grid-row-start: 5;
+    justify-self: start;
+    width: 50%; 
+    justify-self: center;
+    margin-left: 350px;
+}
+
+/* Backend Description*/
+.project-1-text-4 {
+    grid-column-start: 1;
+    grid-row-start: 5;
+    justify-self: start;
+    margin-left: 100px;
+    font-size: small;
+    width: 40%;
+
+}
+/* Frontend Description */
+.project-1-text-5 {
+    grid-column-start: 1;
+    grid-row-start: 4;
+    justify-self: start;
+    margin-left: 100px;
+    font-size: small;
+    width: 40%;
+
+}
+/* Features */
+.project-1-text-6 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    justify-self: start;
+    margin-left: 8px;
+    font-size: small;
+
+}
+/* Technologies */
+.project-1-text-7 {
+    grid-column-start: 1;
+    grid-row-start: 6;
+    justify-self: start;
+    margin-left: 8px;
+    font-size: small;
+
+}
+/* Technologies list*/
+.project-1-text-8 {
+    grid-column-start: 1;
+    grid-row-start: 6;
+    justify-self: start;
+    margin-left: 100px;
+    font-size: small;
+    margin-top: 40px;
+    
+
+}
+/*Features list*/
+.project-1-text-9 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    justify-self: start;
+    font-size: small;
+    margin-top: 40px;
+    width: 40%;
+    margin-left: 100px;
 
 }
 /* -----------------------------------------PROJECT TWO-----------------------------------------------------------*/
@@ -175,21 +254,49 @@ div > img {
     margin-left: 8px;
     grid-column-start: 1 ;
     justify-self: start;
-    width: 80%;
+    width: 60%;
 }
 /* Image */
 .project-2-text-2 {
     grid-column-start: 2 ;
-    grid-row-start: 1;
+    grid-row-start: 2;
     justify-self: start;
     width: 80%;
 }
 /* Link */
 .project-2-text-3 {
     grid-column-start: 2;
+    grid-row-start: 3;
     justify-self: start;
     width: 50%;
 
+}
+/* Functions Title*/
+.project-2-text-4 {
+    margin-left: 8px;
+    grid-column-start: 1 ;
+    grid-row-start: 3;
+    justify-self: start;
+    width: 50%;
+}
+
+/* Functions*/
+.project-2-text-6 {
+    margin-left: 8px;
+    grid-column-start: 1 ;
+    grid-row-start: 4;
+    justify-self: start;
+    width: 50%;
+    font-size: small;
+}
+
+/* Technologies*/
+.project-2-text-5 {
+    margin-left: 8px;
+    grid-column-start: 2 ;
+    grid-row-start: 4;
+    justify-self: start;
+    margin-right: 80px;
 }
 
 
@@ -231,10 +338,48 @@ div > img {
     width: 50%;
 }
 
+/* -----------------------------------------PROJECT FOUR-----------------------------------------------------------*/
+
+.section-4 {
+    background: radial-gradient(farthest-corner at 40px 40px, rgb(107, 14, 109) 0%, #43e 100%);
+    box-shadow: 2px 2px 15px 3px rgb(50, 13, 60);
+    border-radius: 2%;
+    margin: 20px;
+    justify-self: center;
+    width: 90%;
+}
+
+/* title */
+.home-text-7 {
+    grid-column-start: 1 ;
+    margin-left: 8px;
+    justify-self: start;
+}
+/* Description */
+.project-4-text-1 {
+    margin-left: 8px;
+    grid-column-start: 1 ;
+    justify-self: start;
+    width: 80%;
+}
+/* Image */
+.project-4-text-2 {
+    grid-column-start: 2 ;
+    grid-row-start: 1;
+    justify-self: start;
+    width: 80%;
+}
+/* Link */
+.project-4-text-1 {
+    grid-column-start: 2;
+    justify-self: start;
+    width: 50%;
+}
+
 
 section  > * {
     display: grid;
-    height: 30vw;
+    height: 50vw;
 
     /* border: solid pink; */
 } 
