@@ -50,45 +50,85 @@ section > * {
     mix-blend-mode:exclusion;
     height: 50vw;
     width: 100%;
-
+    margin: 40px;
 }
 
 /* Text */
 /* Me As a Developer */
 .about-section-1-text-1 {
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-row-start: 1;
-    width: 40%;
+    width: 80%;
+    background: radial-gradient(farthest-corner at 40px 40px, rgb(215, 61, 218) 0%, rgb(238, 98, 51) 100%);
+    box-shadow: 2px 2px 15px 3px rgb(190, 147, 200);
+    border-radius: 2%;
+    margin: 20px;
+    padding: 20px;
+    justify-self: center;
+    font-size: x-large;
 }
+
 /* Second Paragraph Salesforce*/
 .about-section-1-text-2 {
     grid-column-start: 1;
     grid-row-start: 2;
-    width: 40%;
+    width: 80%;
+    background: radial-gradient(farthest-corner at 40px 40px, rgb(156, 166, 234) 0%, #43e 100%);
+    box-shadow: 2px 2px 15px 3px rgb(190, 147, 200);
+    border-radius: 2%;
+    margin: 20px;
+    padding: 20px;
+    justify-self: center;
+    margin-top: 100px;
+    font-size: x-large;
 }
 
 /* Personal info */
 .about-section-1-text-3 {
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-row-start: 3;
-    width: 40%;
+    width: 80%;
+    background: radial-gradient(farthest-corner at 40px 40px, rgb(248, 173, 229) 0%, #43e 100%);
+    box-shadow: 2px 2px 15px 3px rgb(190, 147, 200);
+    border-radius: 2%;
+    margin: 20px;
+    padding: 20px;
+    margin-top: 120px;
+    justify-self: center;
+    font-size: x-large;
+
 
 }
-
+/*==============================================================TOOLING=================================================================*/
 /* Tooling */
 .about-section-2 {
     /* border: solid red; */
     border: solid .1rem lavender;
     border-radius: 8px;
-    margin: 10px;
+    margin: 40px;
+    display: grid;
+    margin-top: 70px;
 }
 
+.about-section-3-text-1 {
+    grid-column-start: 2;
+    grid-row-start: 4;
+    font-size: x-large;
+}
+.about-section-3-text-2 {
+    grid-column-start: 2;
+    grid-row-start: 4;
+    margin-top: 48px;
+    margin-left: 750px;
+    font-size: x-large;
+}
+/*==============================================================BOTTOM QUOTE=================================================================*/
 /* Quote */
 .about-section-3 {
     /* border: solid hotpink; */
     border: solid .1rem lavender;
     border-radius: 8px;
-    margin: 10px;
+    margin: 40px;
 }
 
 /*================================PHOTOS========================================================*/
