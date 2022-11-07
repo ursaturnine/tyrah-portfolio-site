@@ -51,6 +51,7 @@ section > * {
     height: 50vw;
     width: 100%;
     margin: 40px;
+    margin-bottom: 100px;
 }
 
 /* Text */
@@ -66,6 +67,7 @@ section > * {
     padding: 20px;
     justify-self: center;
     font-size: x-large;
+    margin-right: 100px;
 }
 
 /* Second Paragraph Salesforce*/
@@ -96,6 +98,7 @@ section > * {
     margin-top: 120px;
     justify-self: center;
     font-size: x-large;
+    margin-right: 100px;
 
 
 }
