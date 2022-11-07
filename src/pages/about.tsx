@@ -1,3 +1,4 @@
+import { url } from 'inspector';
 import React, {FC} from 'react';
 import NavBar from '../components/navbar';
 import '../styles/About.css';
@@ -46,7 +47,17 @@ const About: FC<AboutProps> = ({title}) => {
                 </section>
                 <section className='about-section-2'>
                     <div>
-                        <p>Tooling</p>
+                        <p className='tooling-text'>Tooling</p>
+                        <img src={require('../images/Python.png')} alt='python' width={250} height={250} className='tooling-pic-1'/>
+                        <img src={require('../images/javascript.png')} alt='javascript' width={250} height={250} className='tooling-pic-2'/>
+                        <img src={require('../images/react.png')} alt='react' width={250} height={250} className='tooling-pic-3'/>
+                        <img src={require('../images/react-native.png')} alt='react native' width={250} height={250} className='tooling-pic-4'/>
+                        <img src={require('../images/flask.png')} alt='flask' width={250} height={250} className='tooling-pic-5'/>
+                        <img src={require('../images/typescript.png')} alt='typescript' width={250} height={250} className='tooling-pic-6'/>
+                        <img src={require('../images/sql.png')} alt='sql' width={250} height={250} className='tooling-pic-7'/>
+                        <img src={require('../images/csharp.png')} alt='csharp' width={250} height={250} className='tooling-pic-8'/>
+                        {/* <img src={require('../images/')} alt='' width={250} height={250}/> */}
+                        {/* <img src={require('../images/')} alt='' width={250} height={250}/> */}
                     </div>
                 </section>
                 <section className='about-section-3'>

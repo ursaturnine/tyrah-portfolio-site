@@ -108,8 +108,60 @@ section > * {
     margin: 40px;
     display: grid;
     margin-top: 70px;
+    display:grid;
+    padding: 50px;
+    box-shadow: 2px 2px 15px 3px rgb(190, 147, 200);
 }
 
+.tooling-text {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    justify-self: center;
+    font-size: xx-large;
+    margin-left: 250px;
+}
+.tooling-pic-1 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+
+}
+.tooling-pic-2{
+    grid-column-start: 2;
+    grid-row-start: 2;
+
+}
+.tooling-pic-3 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+
+}
+
+.tooling-pic-4 {
+    grid-column-start: 4;
+    grid-row-start: 2;
+
+}
+.tooling-pic-5 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+
+}
+.tooling-pic-6 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+
+}
+.tooling-pic-7 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+
+}
+.tooling-pic-8 {
+    grid-column-start: 4;
+    grid-row-start: 3;
+
+}
+/*==============================================================BOTTOM QUOTE=================================================================*/
 .about-section-3-text-1 {
     grid-column-start: 2;
     grid-row-start: 4;
@@ -122,7 +174,6 @@ section > * {
     margin-left: 750px;
     font-size: x-large;
 }
-/*==============================================================BOTTOM QUOTE=================================================================*/
 /* Quote */
 .about-section-3 {
     /* border: solid hotpink; */
