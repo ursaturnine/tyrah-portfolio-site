@@ -1,13 +1,151 @@
+
+/* Projects Pill */
 .projects-title {
-    float: right;
+    grid-column-start: 3;
     border: 1px solid white;
     border-radius: 57px; 
     padding: 15px;
     margin: 16px;
     margin-right: 80px;
     text-transform: uppercase;
-    box-shadow: 10px 5px 5px olivedrab;
+    box-shadow: 10px 5px 5px olive;
     font-family: 'Splash', cursive;
     font-size: small;
-    flex: 1
+    background-color: #0a0a0a;
+}
+/* Page Header Section*/
+.projects-flex {
+    display: grid;
+}
+
+/* Projects Loading...*/
+.projects-text-container {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+/* Page Sections */
+.projects-sections {
+    display: grid;
+}
+
+/*===================================================PROJECT ONE=====================================================================*/
+
+.projects-section-1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    border: solid .1rem lavender;
+    border-radius: 8px;
+    margin: 40px;
+    display: grid;
+    margin-top: 200px;
+    padding: 50px;
+    box-shadow: 2px 2px 15px 3px rgb(190, 147, 200);
+    height: 40%;
+}
+
+/* Title */
+.projects-section-1-text-1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    justify-self: left;
+    font-size: xx-large;
+}
+/* About */
+.projects-section-1-text-2 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    margin-top: 150px;
+    justify-self: left;
+    width: 50%;
+    font-size: x-large;
+
+}
+/* Technologies */
+.projects-section-1-text-3 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    justify-self: left;
+    margin-top: 400px;
+    font-size: x-large;
+}
+
+/* Link */
+.projects-section-1-text-4 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    justify-self: left;
+    margin-top: 450px;
+    font-size: x-large;
+}
+/* Image */
+.projects-section-1-img-1 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    justify-self: right;
+    border-radius: 250px;
+    height: 20%;
+    margin-right: 80px;
+
+}
+
+
+/*===================================================PROJECT TWO=====================================================================*/
+.projects-section-2 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    border: solid .1rem lavender;
+    border-radius: 8px;
+    margin: 40px;
+    display: grid;
+    padding: 50px;
+    height: 40%;
+    box-shadow: 2px 2px 15px 3px rgb(190, 147, 200);
+    margin-bottom: 200px;
+}
+
+/* Image */
+.projects-section-2-img-1 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    justify-self: right;
+    border-radius: 400px;
+    height: 20%;
+    margin-right: 80px;
+}
+
+/* Title */
+.projects-section-2-text-1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    justify-self: left;
+    font-size: xx-large;
+}
+
+/* About */
+.projects-section-2-text-2 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    margin-top: 200px;
+    justify-self: left;
+    width: 50%;
+    font-size: x-large;
+}
+
+/* Technologies*/
+.projects-section-2-text-3 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    justify-self: left;
+    margin-top: 400px;
+    font-size: x-large;
+
+}
+
+/* Link */
+.projects-section-2-text-4 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    justify-self: left;
+    margin-top: 450px;
+    font-size: x-large;
 }
