@@ -21,16 +21,16 @@ const Contact: FC<ContactProps> = ({title}) => {
             </div>
             <div className='contact-sections'>
                 <section className='contact-section-1'>
-                    <a target='_blank' rel='noreferrer' href='https://github.com/ursaturnine'>
+                    <a className='contact-section-2' target='_blank' rel='noreferrer' href='https://github.com/ursaturnine'>
                         <img src={require('../images/github.png')} alt='' width={250} height={250}/>
                     </a>
-                    <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/tyrahgullette/'>
+                    <a className='contact-section-3'  target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/tyrahgullette/'>
                         <img src={require('../images/linkedin.png')} alt='' width={250} height={250}/>
                     </a>
-                    <a target='_blank' rel='noreferrer' href='https://twitter.com/cloudtyrah'>
+                    <a className='contact-section-4'  target='_blank' rel='noreferrer' href='https://twitter.com/cloudtyrah'>
                         <img src={require('../images/twitter.png')} alt='' width={250} height={250}/>
                     </a>
-                    <a target='_blank' rel='noreferrer' href='mailto:tyrah96@gmail.com'>
+                    <a className='contact-section-5'  target='_blank' rel='noreferrer' href='mailto:tyrah96@gmail.com'>
                     <img src={require('../images/email.png')} alt='' width={250} height={250}/>
                     </a>
                 </section>

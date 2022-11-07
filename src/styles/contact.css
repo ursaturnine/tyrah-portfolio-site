@@ -24,3 +24,50 @@
     grid-column-start: 1;
     grid-row-start: 4;
 }
+
+/*=========================================LINKS================================================================================*/
+
+/* all*/
+.contact-section-1 {
+    border: solid .1rem lavender;
+    box-shadow: 2px 2px 15px 3px rgb(190, 147, 200);
+    display: grid;
+    margin: 100px;
+}
+
+/* GitHub */
+.contact-section-2 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    margin-left: 200px;
+    justify-self: right;
+    margin-top: 300px;
+
+}
+
+/* LinkedIn */
+.contact-section-3 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    margin-right: 200px;
+    margin-left: 10px;
+    margin-top: 300px;
+
+}
+
+/* Twitter */
+.contact-section-4 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    margin-left: 200px;
+    margin-top: -775px;
+    justify-self: right;
+
+}
+/* Email */
+.contact-section-5 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin-top: -775px;
+    margin-left: 10px;
+}
