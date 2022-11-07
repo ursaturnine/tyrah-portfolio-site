@@ -9,6 +9,18 @@
     box-shadow: 10px 5px 5px gold;
     font-family: 'Splash', cursive;
     font-size: small;
-    flex: 1;
     background-color: #0a0a0a;
+    grid-column-start: 6;
+    grid-row-start: 1;
+    width: 70%;
+}
+
+
+.contact-grid {
+    display: grid;
+}
+
+.contact-header-text {
+    grid-column-start: 1;
+    grid-row-start: 4;
 }

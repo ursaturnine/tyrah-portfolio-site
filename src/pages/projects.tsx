@@ -32,7 +32,7 @@ const Projects: FC<ProjectsProps> = ( {title}) => {
                 </section>
                 <section className='projects-section-2'>
                     <p className='projects-section-2-text-1'>Personal Portfolio</p>
-                    <p className='projects-section-2-text-2'>This! This personal porfolio page is a work in progress.</p>
+                    <p className='projects-section-2-text-2'>This! This personal porfolio website is a work in progress.</p>
                     <p className='projects-section-2-text-3'>Technologies: React, TypeScript, JSX</p>
                     <a className='projects-section-2-text-4' target='_blank' rel='noreferrer' href='https://github.com/ursaturnine/tyrah-portfolio-site'>View in GitHub</a>
                     <img className='projects-section-2-img-1'src={require('../images/me-no-glitter.png')} alt='' width={250} height={250}/>
