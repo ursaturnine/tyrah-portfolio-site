@@ -64,6 +64,7 @@ const About: FC<AboutProps> = ({title}) => {
                     <div>
                         <p className='about-section-3-text-1' >"In the end, the shape and form  don't matter at all. It's only the soul that matters, right? Nothing else."</p>
                         <i className='about-section-3-text-2'>-Soul Eater Evans</i>
+                        <img className='quote-pic'src={require('../images/soul-search.png')} alt='soul-search' width={450} height={450}/>
                     </div>
                 </section>
             </div>

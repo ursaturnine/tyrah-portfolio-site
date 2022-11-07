@@ -162,6 +162,10 @@ section > * {
 
 }
 /*==============================================================BOTTOM QUOTE=================================================================*/
+.about-section-3 {
+    box-shadow: 2px 2px 15px 3px rgb(190, 147, 200);
+}
+
 .about-section-3-text-1 {
     grid-column-start: 2;
     grid-row-start: 4;
@@ -180,6 +184,13 @@ section > * {
     border: solid .1rem lavender;
     border-radius: 8px;
     margin: 40px;
+}
+
+.quote-pic {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    margin-top: 200px;
+    margin-left: 380px;
 }
 
 /*================================PHOTOS========================================================*/
