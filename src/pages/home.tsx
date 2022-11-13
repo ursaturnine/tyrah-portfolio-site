@@ -54,8 +54,7 @@ Raised in the Y2K era of tech optimism.</p>
                 <section className='section-2'>
                     <div>
                         <p className='home-text-5'> Viewing Party </p>
-                        <p className='project-2-text-1'>A mini project to create a recommendation based algorithm written in the Python language. This project exhibits my ease with using the Python language after 3 years of coding in it.
-                        This project also demonstrates my ability to read a description for a feature and to write a function for it; this coding challenge required I pass the given tests with my logic. In Viewing Party, I use the Python data structures, list and dictionary, to create a movie dictionary for individual users and their friends. </p>
+                        <p className='project-2-text-1'>A mini project to create a recommendation based algorithm written in the Python language. </p>
                         <img className='project-2-text-2' src={require('../images/watch-party.png')} alt='pizza party' height={300} width={300}/>
                         <p className='project-2-text-5'>Technologies: Python, PyTest, Git</p>
                         <a className='project-2-text-3' target='_blank' href='https://github.com/ursaturnine/viewing-party' rel='noreferrer'>View in Github</a>
@@ -68,7 +67,7 @@ Raised in the Y2K era of tech optimism.</p>
                         via form submission, adding cards to a board via form submission, like a board or card and delete a board or card.</p>
                         <p className='project-3-text-7'>Technologies: React, Flask, Python, Framr Motion, SQLAlchemy, Heroku</p>
                         <img className='project-3-text-2' src={require('../images/inspo-board.png')} alt='inspo board' height={300} width={300}/>
-                        <i className='project-3-text-6'>A Screen Grab of the Boards Page on the Website For Inspiration Board Project</i>
+                        <i className='project-3-text-6'>Inspiration Board Website</i>
                         <a className='project-3-text-3' target='_blank' href='https://orange-purple.herokuapp.com/' rel='noreferrer'>orange-purple.herokuapp.com</a>
                         <a className='project-3-text-4' target='_blank' href='https://github.com/ursaturnine/inspo-board-front' rel='noreferrer'>View Frontend Code in Github</a>
                         <a className='project-3-text-5' target='_blank' href='https://github.com/cathos/back-end-inspiration-board' rel='noreferrer'>View Backend Code in Github</a>
