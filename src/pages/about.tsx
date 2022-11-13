@@ -14,7 +14,7 @@ const About: FC<AboutProps> = ({title}) => {
     return (
         <div className='about'>
             <div className='about-flex'>
-                <div>
+                <div className='about-nav'>
                     <NavBar/>
                 </div>
                 <div className='inner-about-1'>

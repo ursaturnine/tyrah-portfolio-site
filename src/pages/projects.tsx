@@ -10,7 +10,7 @@ const Projects: FC<ProjectsProps> = ( {title}) => {
     return(
         <div className='projects'>
             <div className='projects-flex'>
-                <div>
+                <div className='project-nav'>
                     <NavBar/>
                 </div>
                 <div className='projects-title'>

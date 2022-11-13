@@ -9,6 +9,14 @@
     /* border: solid salmon; */
 }   
 
+.home-nav {
+    background: radial-gradient(farthest-corner at 40px 40px, rgb(234, 85, 234) 0%, rgb(70, 6, 108) 100%);
+    box-shadow: 2px 2px 15px 3px rgb(50, 13, 60);
+    border-radius: 30px;
+    height: 40%;
+    width: 24%;
+    margin-left: 20px;
+}
 /* Home Large Pill Box */
 .home-flex-2 {
     grid-column-start: 3;
@@ -68,6 +76,7 @@ div > img {
 /* Hello Text */
 .home-text-1add {
     font-size: xx-large;
+    margin-left: 45px;
 }
 
 /* About Me One Liner Container */
@@ -117,26 +126,6 @@ div > img {
     margin: 50px;
 }
 
-/*==================================================INTRO TO MY WORK=========================================*/
-.section-5 {
-    /* background: radial-gradient(farthest-corner at 40px 40px, #f35 0%, #43e 100%);
-    box-shadow: 2px 2px 15px 3px rgb(50, 13, 60); */
-    border: solid .1rem lavender;
-    box-shadow: 2px 2px 15px 3px rgb(190, 147, 200);
-    border-radius: 2%;
-    margin: 20px;
-    justify-self: center;
-    width: 90%;
-    height: 10vw;
-}
-.section-5-text {
-    justify-self: center;
-    margin-left: 15px;
-    margin-top: 50px;
-    font-size: x-large;
-    padding: 20px;
-    font-family: 'Electrolize', sans-serif;
-}
 /*=========================== PROJECTS SECTION===============================================================*/
 /* Project 1 */
 .section-1 {

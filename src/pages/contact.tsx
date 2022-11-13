@@ -10,7 +10,7 @@ const Contact: FC<ContactProps> = ({title}) => {
     return(
         <div className='contact'>
             <div className='contact-grid'>
-                <div>
+                <div className='contact-nav'>
                     <NavBar/>
                 </div>
                 <div className='contact-title'>

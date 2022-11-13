@@ -11,7 +11,7 @@ const Home: FC<HomeProps> = ({title}) => {
     return(
         <div className='home-flex'>
             <div className='home-flex-1'> 
-                <div>
+                <div className='home-nav'>
                     <NavBar/>
                 </div>
                 <div className='home-flex-2'>
@@ -21,7 +21,7 @@ const Home: FC<HomeProps> = ({title}) => {
                     <img src={require('../images/saturn.png')} alt='uranus' width={280} height={300}/> 
                 </div>
                 <div className='home-flex-3'>
-                    <p className='home-text-1'>Tyrah D. Gullette, Software Engineering Intern @ Salesforce</p>
+                    <p className='home-text-1'>Tyrah D. Gullette, Software Engineering Intern @ Tableau, a Salesforce Company</p>
                 </div>
                 <div className='home-flex-2add'>
                     <img src={require('../images/home-logo-purple.png')} alt='tech logo' width={300} height={300}/>
@@ -39,11 +39,6 @@ Raised in the Y2K era of tech optimism.</p>
                 </div>
             </div>
             <div className='sections'>
-                <section className='section-5'>
-                    <div>
-                        <p className='section-5-text'>Here are some finished projects I really dug into to develop my skills in backend, frontend and fullstack engineering. </p>
-                    </div>
-                </section>
                 <section className='section-1'>
                     <div>
                         <p className='home-text-4'> Tell Me where</p>

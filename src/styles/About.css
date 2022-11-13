@@ -2,17 +2,13 @@
     align-items: center;
 }
 
-/* .right-container {
-    float: right;
-    border: 1px solid white;
-    border-radius: 57px; 
-    padding: 15px;
-    margin: 16px;
-    margin-right: 80px;
-    text-transform: uppercase;
-    font-family: 'Splash', cursive;
-    font-size: small;
-} */
+.about-nav {
+    background: radial-gradient(farthest-corner at 40px 40px, rgb(234, 85, 234) 0%, rgb(70, 6, 108) 100%);
+    box-shadow: 2px 2px 15px 3px rgb(50, 13, 60);
+    border-radius: 30px;
+    height: 40%;
+    margin-left: 20px;
+}
 
 .about-flex {
     /* border: solid orange; */
