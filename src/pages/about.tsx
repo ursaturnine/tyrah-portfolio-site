@@ -40,8 +40,8 @@ const About: FC<AboutProps> = ({title}) => {
                         folx. I'll be graduating in cohort 17 in January 2023. As a first gen student and black woman in tech, nothing feels like a given and taking a year off from
                         a degree is a slippery slope. As an applied scientist and highly curious technologist, exploring my chosen field in the way which excites me most, through hands on experience,
                         is worth the chanciness. I'm hoping my non-linear path will scale to O(logn) instead O(n logn). 🤓 </p>
-                        <p className='about-section-1-text-2'>I'm currently a software engineering intern at Salesforce Tableau on the Visibility and Interactivity team.
-                        I'm writing code on a project developed to provide an adaptive and creative way to render new Tableau visualizations to satisfy and delight our customers.</p>
+                        <p className='about-section-1-text-2'>I'm currently a software engineering intern at Tableau, a Salesforce company, on the Visibility and Interactivity team.
+                        I'm writing code across a hybrid UI workspace to create complex data visualizations.</p>
                         <p className='about-section-1-text-3'>I love exploring new technologies and starting new projects in my free-time; check out my Works In Progress page to view what I'm designing now. I'm also a huge reader, alternative R&B listener, cook, and anime nerd. </p>
                     </div>
                 </section>

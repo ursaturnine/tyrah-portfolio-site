@@ -26,6 +26,7 @@
 /* Page Sections */
 .projects-sections {
     display: grid;
+    margin: 5px;
 }
 
 /*===================================================PROJECT ONE=====================================================================*/
@@ -40,7 +41,7 @@
     margin-top: 200px;
     padding: 50px;
     box-shadow: 2px 2px 15px 3px rgb(190, 147, 200);
-    height: 40%;
+    height: 20%;
 }
 
 /* Title */
@@ -92,15 +93,15 @@
 /*===================================================PROJECT TWO=====================================================================*/
 .projects-section-2 {
     grid-column-start: 1;
-    grid-row-start: 2;
+    grid-row-start: 1;
     border: solid .1rem lavender;
     border-radius: 8px;
     margin: 40px;
     display: grid;
     padding: 50px;
-    height: 40%;
+    height: 20%;
     box-shadow: 2px 2px 15px 3px rgb(190, 147, 200);
-    margin-bottom: 200px;
+    margin-top: 1200px;
 }
 
 /* Image */

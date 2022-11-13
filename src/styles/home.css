@@ -132,8 +132,9 @@ div > img {
 .section-5-text {
     justify-self: center;
     margin-left: 15px;
-    margin-top: 70px;
-    font-size: xx-large;
+    margin-top: 50px;
+    font-size: x-large;
+    padding: 20px;
     font-family: 'Electrolize', sans-serif;
 }
 /*=========================== PROJECTS SECTION===============================================================*/
