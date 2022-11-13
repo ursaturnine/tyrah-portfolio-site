@@ -2,4 +2,5 @@
     background: radial-gradient(farthest-corner at 40px 40px, rgb(234, 85, 234) 0%, rgb(70, 6, 108) 100%);
     box-shadow: 2px 2px 15px 3px rgb(50, 13, 60);
     border-radius: 30px;
+    font-size: large;
 }
