@@ -54,7 +54,7 @@ Raised in the Y2K era of tech optimism.</p>
                 <section className='section-2'>
                     <div>
                         <p className='home-text-5'> Viewing Party </p>
-                        <p className='project-2-text-1'>A mini project to create a recommendation based algorithm written in the Python language. </p>
+                        <p className='project-2-text-1'>A project to create a recommendation based algorithm written in the Python language. </p>
                         <img className='project-2-text-2' src={require('../images/watch-party.png')} alt='pizza party' height={300} width={300}/>
                         <p className='project-2-text-5'>Technologies: Python, PyTest, Git</p>
                         <a className='project-2-text-3' target='_blank' href='https://github.com/ursaturnine/viewing-party' rel='noreferrer'>View in Github</a>
@@ -63,7 +63,7 @@ Raised in the Y2K era of tech optimism.</p>
                 <section className='section-3'>
                     <div>
                         <p className='home-text-6'> Inspiration Board </p>
-                        <p className='project-3-text-1'>A web app to create and organize inspiration boards and cards! Inspiration Board Features include, creating a board
+                        <p className='project-3-text-1'>A web app to create and organize inspiration boards and cards! Inspiration Board Features include creating a board
                         via form submission, adding cards to a board via form submission, like a board or card and delete a board or card.</p>
                         <p className='project-3-text-7'>Technologies: React, Flask, Python, Framr Motion, SQLAlchemy, Heroku</p>
                         <img className='project-3-text-2' src={require('../images/inspo-board.png')} alt='inspo board' height={300} width={300}/>
