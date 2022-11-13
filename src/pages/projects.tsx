@@ -1,6 +1,7 @@
 import React, {FC} from 'react';
 import NavBar from '../components/navbar';
 import '../styles/projects.css';
+import Footer from '../components/footer';
 
 interface ProjectsProps {
     title?: string
@@ -38,7 +39,7 @@ const Projects: FC<ProjectsProps> = ( {title}) => {
                     <img className='projects-section-2-img-1'src={require('../images/me-no-glitter.png')} alt='' width={250} height={250}/>
                 </section>
             </div>
-
+                <Footer/>
         </div>
     )
 };

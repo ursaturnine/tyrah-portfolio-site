@@ -1,7 +1,8 @@
-import { url } from 'inspector';
+
 import React, {FC} from 'react';
 import NavBar from '../components/navbar';
 import '../styles/About.css';
+import Footer from '../components/footer';
 
 
 
@@ -36,10 +37,8 @@ const About: FC<AboutProps> = ({title}) => {
             <div className='about-sections'>
                 <section className='about-section-1'>
                     <div>
-                        <p className='about-section-1-text-1'>I'm a deferred cybersecurity major attending the Ada Developer's Academy for women and gender expansive
-                        folx. I'll be graduating in cohort 17 in January 2023. As a first gen student and black woman in tech, nothing feels like a given and taking a year off from
-                        a degree is a slippery slope. As an applied scientist and highly curious technologist, exploring my chosen field in the way which excites me most, through hands on experience,
-                        is worth the chanciness. I'm hoping my non-linear path will scale to O(logn) instead O(n logn). 🤓 </p>
+                        <p className='about-section-1-text-1'>I'm a deferred cybersecurity major attending the Ada Developer's Academy which teaches full stack web development for women and gender expansive
+                        folx. I'll be graduating in cohort 17 in January 2023. I'm also in the BDPA Google Cloud Academy and will be graduating with a Google cloud certification in January 2023. </p>
                         <p className='about-section-1-text-2'>I'm currently a software engineering intern at Tableau, a Salesforce company, on the Visibility and Interactivity team.
                         I'm writing code across a hybrid UI workspace to create complex data visualizations.</p>
                         <p className='about-section-1-text-3'>I love exploring new technologies and starting new projects in my free-time; check out my Works In Progress page to view what I'm designing now. I'm also a huge reader, alternative R&B listener, cook, and anime nerd. </p>
@@ -68,6 +67,7 @@ const About: FC<AboutProps> = ({title}) => {
                     </div>
                 </section>
             </div>
+            <Footer/>
         </div>
     )
 };

@@ -114,7 +114,7 @@ div > img {
 
 .sections {
     display: grid;
-    /* border: solid yellow; */
+    margin: 50px;
 }
 
 /*==================================================INTRO TO MY WORK=========================================*/

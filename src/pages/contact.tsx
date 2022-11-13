@@ -1,6 +1,7 @@
 import React, {FC} from 'react';
 import NavBar from '../components/navbar';
 import '../styles/contact.css'
+import Footer from '../components/footer';
 
 interface ContactProps {
     title?: string
@@ -34,9 +35,8 @@ const Contact: FC<ContactProps> = ({title}) => {
                     <img src={require('../images/email.png')} alt='' width={250} height={250}/>
                     </a>
                 </section>
-
             </div>
-
+            <Footer/>
         </div>
     )
 };

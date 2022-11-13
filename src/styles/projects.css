@@ -29,6 +29,7 @@
     margin: 5px;
 }
 
+
 /*===================================================PROJECT ONE=====================================================================*/
 
 .projects-section-1 {
@@ -58,7 +59,7 @@
     margin-top: 150px;
     justify-self: left;
     width: 50%;
-    font-size: x-large;
+    font-size: xx-large;
 
 }
 /* Technologies */
@@ -66,17 +67,16 @@
     grid-column-start: 1;
     grid-row-start: 1;
     justify-self: left;
-    margin-top: 400px;
-    font-size: x-large;
+    margin-top: 500px;
+    font-size: xx-large;
 }
 
 /* Link */
 .projects-section-1-text-4 {
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-row-start: 1;
-    justify-self: left;
-    margin-top: 450px;
-    font-size: x-large;
+    margin-top: 500px;
+    font-size: xx-large;
 }
 /* Image */
 .projects-section-1-img-1 {
@@ -129,7 +129,7 @@
     margin-top: 200px;
     justify-self: left;
     width: 50%;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 /* Technologies*/
@@ -138,15 +138,14 @@
     grid-row-start: 1;
     justify-self: left;
     margin-top: 400px;
-    font-size: x-large;
+    font-size: xx-large;
 
 }
 
 /* Link */
 .projects-section-2-text-4 {
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-row-start: 1;
-    justify-self: left;
-    margin-top: 450px;
-    font-size: x-large;
+    margin-top: 400px;
+    font-size: xx-large;
 }

@@ -2,6 +2,7 @@ import React, {FC} from 'react';
 import NavBar from '../components/navbar';
 import '../styles/home.css';
 import PageSection from '../components/pagesection'
+import Footer from '../components/footer'
 
 interface HomeProps {
     title?: string
@@ -89,6 +90,7 @@ Raised in the Y2K era of tech optimism.</p>
                     </div>
                 </section>
             </div>
+            <Footer/>
         </div>
     )
 };
