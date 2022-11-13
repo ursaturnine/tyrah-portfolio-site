@@ -173,11 +173,11 @@ div > img {
 /* Link Backend */
 .project-1-text-10 {
     grid-column-start: 2;
-    grid-row-start: 5;
+    grid-row-start: 4;
     justify-self: start;
     margin-right: 50px;
     font-size: x-large;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 /* Technologies list*/
 .project-1-text-8 {
