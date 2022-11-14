@@ -8,6 +8,7 @@
     border-radius: 30px;
     height: 40%;
     margin-left: 20px;
+    width: 80%;
 }
 
 .about-flex {
@@ -107,6 +108,7 @@ section > * {
     display: grid;
     margin-top: 70px;
     box-shadow: 2px 2px 15px 3px rgb(190, 147, 200);
+    margin: 40px;
 }
 
 .tooling-text {
