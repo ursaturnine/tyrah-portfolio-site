@@ -107,7 +107,6 @@ section > * {
     display: grid;
     margin-top: 70px;
     display:grid;
-    padding: 50px;
     box-shadow: 2px 2px 15px 3px rgb(190, 147, 200);
 }
 
